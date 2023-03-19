@@ -1,0 +1,33 @@
+body{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #F55A5A;
+    height: 70px;
+}
+
+.nav-items{
+    
+}
+
+.nav-items .nav-text{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14.46px;
+    letter-spacing: -0.075em;
+    font-style: normal;
+    line-height: 18px;
+}
