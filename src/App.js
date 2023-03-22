@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
         <Navbar />
-        <Travel />
+        <Travel 
+          
+        />
     </div>
   );
 }
