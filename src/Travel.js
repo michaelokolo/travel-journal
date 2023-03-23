@@ -2,8 +2,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMapMarkerAlt } from "@fortawesome/fontawesome-free-solid"
 
 function Travel(props){
+    
+   let marginStyle
+    if (props.id != 1){
+        marginStyle = 50
+    } else{
+        marginStyle = 100
+    }
+    
+    
+    
     return(
-        <section className="travel">
+        <section className="travel" style = {{marginTop:`${marginStyle}px`}}>
             <div className="travel-card">
                 <div className="travel-image">
                     <img src={`./${props.imageUrl}`}/>
